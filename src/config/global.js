@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Historia, fundamentos y conceptos básicos en toxicología',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Historia, fundamentos y conceptos básicos en toxicología',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Historia de la toxicología y su relación con el trabajo',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Revolución industrial y primeros casos ocupacionales',
             hash: 't_1_2',
           },
         ],
@@ -36,26 +36,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Toxicocinética y toxicodinámica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Toxicocinética',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Toxicodinámica',
             hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
           },
         ],
       },
@@ -63,22 +57,23 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'Sustancias cancerígenas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Exposición ocupacional a sustancias cancerígenas',
             hash: 't_3_1',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Enfermedad laboral de origen tóxico',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +113,112 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Capítulo 33 Toxicología. Enciclopedia de la OIT: ( ed.). Madrid, D - INSHT (Instituto Nacional de Seguridad e Higiene en el Trabajo).  ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/96247?page=10',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Agencia Internacional para la Investigación del Cáncer (IARC). (2024). Monographs on the Identification of Carcinogenic Hazards to Humans.  ',
+      link: 'https://monographs.iarc.who.int',
+    },
+    {
+      referencia:
+        'Occupational Safety and Health Administration (OSHA). (2023). Chemical Hazards and Toxic Substances. ',
+      link: 'https://www.osha.gov/chemical-hazards ',
+    },
+    {
+      referencia:
+        'National Institute for Occupational Safety and Health (NIOSH). (2022). Carcinogen List. ',
+      link: 'https://www.cdc.gov/niosh/topics/cancer/default.html ',
+    },
+    {
+      referencia:
+        'Colombia. (2014). Decreto 1477 de 2014: Por el cual se expide la Tabla de Enfermedades Laborales. Diario Oficial No. 49.234, 5 de agosto de 2014.  ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=58849',
+    },
+    {
+      referencia:
+        'Ley 1562 de 2012: Por la cual se modifica el Sistema General de Riesgos Laborales y se dictan otras disposiciones en materia de salud ocupacional. Diario Oficial No. 48.449, 11 de julio de 2012. ',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=48365 ',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Absorción',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Proceso mediante el cual una sustancia tóxica ingresa al organismo desde el medio externo.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Agente cancerígeno',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Sustancia física, química o biológica capaz de inducir cáncer en humanos o animales.',
+    },
+    {
+      termino: 'Asbesto',
+      significado:
+        'Mineral fibroso utilizado en la industria, altamente cancerígeno y prohibido en muchos países.',
+    },
+    {
+      termino: 'Benceno',
+      significado:
+        'Compuesto aromático volátil, utilizado en la industria petroquímica y relacionado con leucemia.',
+    },
+    {
+      termino: 'Carcinogenicidad',
+      significado:
+        'Propiedad de una sustancia de provocar la formación de tumores malignos.',
+    },
+    {
+      termino: 'DL50',
+      significado:
+        'Dosis letal media que causa la muerte al 50% de una población experimental.',
+    },
+    {
+      termino: 'Exposición ocupacional',
+      significado:
+        'Contacto de un trabajador con agentes peligrosos presentes en su entorno laboral.',
+    },
+    {
+      termino: 'Formaldehído',
+      significado:
+        'Sustancia química irritante y cancerígena usada en laboratorios y procesos industriales.',
+    },
+    {
+      termino: 'Hidrocarburos aromáticos policíclicos',
+      significado:
+        'Compuestos generados en procesos de combustión incompleta, algunos son cancerígenos.',
+    },
+    {
+      termino: 'IARC',
+      significado:
+        'Agencia Internacional para la Investigación del Cáncer, clasifica agentes según su riesgo carcinogénico.',
+    },
+    {
+      termino: 'Metales pesados',
+      significado:
+        'Elementos como plomo, mercurio o cadmio, tóxicos para diversos órganos.',
+    },
+    {
+      termino: 'Monitoreo ambiental',
+      significado:
+        'Evaluación sistemática de contaminantes presentes en el ambiente laboral.',
+    },
+    {
+      termino: 'Sílice cristalina',
+      significado:
+        'Mineral que, al ser inhalado, puede causar silicosis y cáncer de pulmón.',
+    },
+    {
+      termino: 'Toxicocinética',
+      significado:
+        'Rama de la toxicología que estudia la absorción, distribución, metabolismo y excreción de tóxicos.',
+    },
+    {
+      termino: 'Toxicodinámica',
+      significado:
+        'Rama que analiza los efectos biológicos y mecanismos de acción de los tóxicos en el organismo.',
     },
   ],
 }

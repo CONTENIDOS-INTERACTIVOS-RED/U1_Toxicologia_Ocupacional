@@ -22,11 +22,11 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
+              p.descripcion.mb-4 Desde los inicios de la actividad laboral, la protección de la salud ha sido un pilar esencial para el bienestar de las personas y el desarrollo sostenible de las organizaciones. En un mundo caracterizado por la innovación constante, la presencia de agentes tóxicos en los entornos de trabajo plantea desafíos que requieren conocimientos especializados y estrategias efectivas para prevenir riesgos.
 
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 A lo largo de la formación, se abordarán también los riesgos de las sustancias cancerígenas y las enfermedades laborales de origen tóxico, con un enfoque en la prevención, la evaluación del riesgo y la implementación de medidas de control que protejan la salud de los trabajadores. 
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
+              p #[b ¡Prepárese para desarrollar competencias que le permitan reconocer, evaluar y prevenir riesgos toxicológicos en el ámbito laboral, contribuyendo a entornos de trabajo más seguros y saludables!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

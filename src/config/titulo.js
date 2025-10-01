@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'CIRHistoria, fundamentos y conceptos básicos en toxicologíaED'
